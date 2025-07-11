@@ -17,7 +17,7 @@ Another example could be a workflow where S3 receives a tif-format raster that n
 
 ## What this folder contains
 
-This folder contains Dockerfile(s), requirements and a resulting zip file that contain all the required Python libraries, including the following:
+This folder contains Dockerfile and requirements.txt file that includes all the required Python libraries, including the following:
 
 arcgis (2.4)
 azure storage blob
@@ -34,6 +34,6 @@ This is built using Amazon Linux 2 (as no suitable process to use Amazon Linux 2
 
 # Using the repo
 
-If you just want to create a Lambda layer to use with the arcgis API for Python and ArcGIS Online, the zip file in this folder can be uploaded to AWS directly, and a Linux/Python3.11 compatible Lambda Layer be created. That layer can be associated with various Lambda functions, so it doesn't have to be created multiple times.
+If you just want to create a Lambda layer to use with the arcgis API for Python and ArcGIS Online, the output zip file can be uploaded to AWS, and a Linux/Python3.11 compatible Lambda Layer be created. That layer can be associated with various Lambda functions, so it doesn't have to be created multiple times.
 
 To build modified output, use the Dockerfile after making your changes to build a new container, then run the container interactively and change into the directory where the built Zip file is stored "cd /lambda-layer" to download the file. This works conveniently in Visual Studio Code with the Docker extension.
