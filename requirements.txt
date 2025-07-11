@@ -1,0 +1,13 @@
+# For use with arcgis, a couple of required libraries
+ujson
+six
+idna
+requests
+requests-toolbelt
+requests-ntlm
+requests_oauthlib
+truststore
+cachetools
+lxml
+geomet
+puremagic
