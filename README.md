@@ -10,7 +10,7 @@ All required imports are part of the layer package (zip file) created here, in a
 ### Example ETL 1
 
 One example ETL workflow would be to convert a NetCDF file of vector (table) data into a Geopackage that can be used to overwrite an ArcGIS Hosted Feature Layer.
-[Plan best done on the back of an envelope](./back_of-an_envelope_pic.jpg)
+[Plan best done on the back of an envelope](./back_of_an_envelope_pic.jpg)
 
 ### Example ETL 2
 
